@@ -1,0 +1,16 @@
+G:\My Educational Drive\My Work\MY Blogs\Blogs\CodeProject\JSON and Microsoft technologies\Source Code\WCFJSON\WCFJSON\bin\WCFJSON.dll
+G:\My Educational Drive\My Work\MY Blogs\Blogs\CodeProject\JSON and Microsoft technologies\Source Code\WCFJSON\WCFJSON\bin\WCFJSON.pdb
+G:\My Educational Drive\My Work\MY Blogs\Blogs\CodeProject\JSON and Microsoft technologies\Source Code\WCFJSON\WCFJSON\obj\Debug\WCFJSON.csprojResolveAssemblyReference.cache
+G:\My Educational Drive\My Work\MY Blogs\Blogs\CodeProject\JSON and Microsoft technologies\Source Code\WCFJSON\WCFJSON\obj\Debug\WCFJSON.dll
+G:\My Educational Drive\My Work\MY Blogs\Blogs\CodeProject\JSON and Microsoft technologies\Source Code\WCFJSON\WCFJSON\obj\Debug\WCFJSON.pdb
+C:\Users\smarla\Desktop\WCFJSON\WCFJSON\obj\Debug\WCFJSON.csprojResolveAssemblyReference.cache
+C:\Users\smarla\Desktop\WCFJSON\WCFJSON\obj\Debug\WCFJSON.dll
+C:\Users\smarla\Desktop\WCFJSON\WCFJSON\obj\Debug\WCFJSON.pdb
+C:\Users\smarla\Desktop\WCFJSON\WCFJSON\bin\WCFJSON.dll
+C:\Users\smarla\Desktop\WCFJSON\WCFJSON\bin\WCFJSON.pdb
+E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\bin\WCFJSON.dll.config
+E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\bin\WCFJSON.dll
+E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\bin\WCFJSON.pdb
+E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\obj\Debug\WCFJSON.dll
+E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\obj\Debug\WCFJSON.pdb
+E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\obj\Debug\WCFJSON.csprojResolveAssemblyReference.cache
