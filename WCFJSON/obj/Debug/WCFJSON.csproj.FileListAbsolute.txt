@@ -14,3 +14,9 @@ E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\bin\WCFJSON.pdb
 E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\obj\Debug\WCFJSON.dll
 E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\obj\Debug\WCFJSON.pdb
 E:\base camp\Hemalatha\Mi9\WCFJSON-noexe\WCFJSON\WCFJSON\obj\Debug\WCFJSON.csprojResolveAssemblyReference.cache
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\bin\WCFJSON.dll.config
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\bin\WCFJSON.dll
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\bin\WCFJSON.pdb
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\obj\Debug\WCFJSON.csprojResolveAssemblyReference.cache
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\obj\Debug\WCFJSON.dll
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\obj\Debug\WCFJSON.pdb

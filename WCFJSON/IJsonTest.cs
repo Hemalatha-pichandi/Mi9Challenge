@@ -12,8 +12,8 @@ namespace WCFJSON
     [ServiceContract]
     public interface IJsonTest
     {
-        [OperationContract]
-        Payload GetJsonData();
+        //[OperationContract]
+        //Payload GetJsonData();
 
         [OperationContract]
         string PostJsonData(string jsonData);

@@ -15,17 +15,17 @@ namespace WCFJSON
     public class JsonTest : IJsonTest
     {       
 
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare,
-            UriTemplate = "GetJsonTestData")]
-        public Payload GetJsonData()
-        {
-            Payload payLoad = new Payload()
-            {
-                drm = false,
-                episodeCount = 0
-            };
-            return payLoad;
-        }
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare,
+        //    UriTemplate = "GetJsonTestData")]
+        //public Payload GetJsonData()
+        //{
+        //    Payload payLoad = new Payload()
+        //    {
+        //        drm = false,
+        //        episodeCount = 0
+        //    };
+        //    return payLoad;
+        //}
 
         [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json,
         UriTemplate = "PostJsonTestData")]
