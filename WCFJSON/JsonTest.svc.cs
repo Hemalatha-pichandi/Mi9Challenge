@@ -49,9 +49,9 @@ namespace WCFJSON
                 return serializer.Serialize(resultData);
             }
             catch (Exception e)
-            {                
-                return "{\"error\": \"Could not decode request: JSON parsing failed\"}";                
-            }
+            {
+                throw new WebFaultException<string>("Could not decode request: JSON parsing failed", System.Net.HttpStatusCode.BadRequest);                
+            }   
         }
 
         protected bool ConditionCheck(Dictionary<string, object> item)

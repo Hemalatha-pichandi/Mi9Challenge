@@ -140,7 +140,7 @@
                     Results= "Seventh Result <br/>" + data + "<br/>";
                 },
                 error: function (xhr) {
-                    alert(xhr.responseText);
+                    alert(xhr.responseText + " Status Code:  " +xhr.status);
                     Errors= "Seventh Result <br/>" + xhr.responseText; + "<br/>";
                 }
             });                     
