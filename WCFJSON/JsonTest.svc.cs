@@ -36,7 +36,8 @@ namespace WCFJSON
             {
                 string path = AppDomain.CurrentDomain.BaseDirectory;
                 String dir = Path.GetDirectoryName(path);
-                string filename = dir + "\\DocI.txt";
+                //string filename = dir + "\\DocI.txt";
+                string filename = dir + "\\TestPage.html";
 
                 using (System.IO.StreamWriter file = new System.IO.StreamWriter(filename, true))
                 {
