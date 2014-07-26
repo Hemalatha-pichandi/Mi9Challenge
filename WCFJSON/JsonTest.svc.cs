@@ -1,6 +1,7 @@
 ﻿using JSONExamples;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -32,24 +33,40 @@ namespace WCFJSON
         public string PostJsonData(string JSONData)
         {
             try
-            {                
-                JavaScriptSerializer serializer = new JavaScriptSerializer();
-                var jsonObject = serializer.Deserialize<dynamic>(JSONData);
-                var payLoads = jsonObject["payload"];
-                
-                List<object> results = new List<object>();
-                
-                foreach (var item in payLoads)
-                    if (ConditionCheck(item))
-                        GenerateResult(item, results);
+            {
+                string path = AppDomain.CurrentDomain.BaseDirectory;
+                String dir = Path.GetDirectoryName(path);
+                string filename = dir + "\\DocI.txt";
 
-                Dictionary<string, List<object>> resultData = new Dictionary<string, List<object>>();
-                resultData.Add("response", results);
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(filename, true))
+                {
+                    file.WriteLine("JSON Input Data  @ " + DateTime.Now.ToString());
+                    file.WriteLine(JSONData);
+                    file.WriteLine("==================================================================================================================================");
 
-                return serializer.Serialize(resultData);
+
+                    JavaScriptSerializer serializer = new JavaScriptSerializer();
+                    var jsonObject = serializer.Deserialize<dynamic>(JSONData);
+                    var payLoads = jsonObject["payload"];
+
+                    List<object> results = new List<object>();
+
+                    foreach (var item in payLoads)
+                        if (ConditionCheck(item))
+                            GenerateResult(item, results);
+
+                    Dictionary<string, List<object>> resultData = new Dictionary<string, List<object>>();
+                    resultData.Add("response", results);
+
+                    file.WriteLine("JSON Output  @ " + DateTime.Now.ToString());
+                    file.WriteLine(serializer.Serialize(resultData));
+                    file.WriteLine("==================================================================================================================================");
+
+                    return serializer.Serialize(resultData);
+                }
             }
             catch (Exception e)
-            {
+            {                
                 throw new WebFaultException<string>("Could not decode request: JSON parsing failed", System.Net.HttpStatusCode.BadRequest);                
             }   
         }

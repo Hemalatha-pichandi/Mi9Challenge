@@ -20,3 +20,4 @@ C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WC
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\obj\Debug\WCFJSON.csprojResolveAssemblyReference.cache
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\obj\Debug\WCFJSON.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\obj\Debug\WCFJSON.pdb
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodingChallenge\WCFJSON\Mi9Challenge\WCFJSON\bin\DocI.txt
